@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+<title>Ejemplo noscript</title>
+<script>
+function miFuncion() {
+document.getElementById("demo").innerHTML = "Cambiamos párrafo";
+}
+</script>
+</head>
+<body>
+<noscript>
+<p>Bienvenido a Mi Sitio</p>
+<p>La página que estás viendo requiere para su funcionamiento el uso de
+JavaScript. Si lo has deshabilitado intencionadamente, por favor vuelve a
+activarlo</p>
+</noscript>
+<h2>JavaScript en la Cabecera</h2>
+<p id="demo">Un párrafo</p>
+<button type="button" onclick="miFuncion()">CAMBIAR</button>
+</body>
+</html>
